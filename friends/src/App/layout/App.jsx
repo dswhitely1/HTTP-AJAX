@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import API from '../common/api';
 import Container from '../styles/Container';
 import Friends from '../../Features/Friends/Friends';
-
+import GlobalStyle from '../styles/Global';
 class App extends Component {
   state = {};
 
@@ -18,6 +18,7 @@ class App extends Component {
   render() {
     return (
       <Container>
+        <GlobalStyle />
         {this.state.friends && <Friends friends={this.state.friends} />}
       </Container>
     );

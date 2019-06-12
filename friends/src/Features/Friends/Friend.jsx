@@ -1,14 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Card from '../../App/styles/Card';
+import Button from '../../App/styles/Button';
+import styled from 'styled-components';
+
+const ButtonContainer = styled.div`
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 1rem;
+`;
 
 const Friend = ({friend}) => {
   const {name,age,email} = friend;
   return (
-    <div>
-      <h1>{name}</h1>
-      <p>{age}</p>
+    <Card>
+      <h4>{name}</h4>
+      <p>{`Age: ${age}`}</p>
+      <p>Email:</p>
       <p>{email}</p>
-    </div>
+      <ButtonContainer>
+      <Button success>Edit</Button>
+      <Button danger>Delete</Button>
+      </ButtonContainer>
+    </Card>
   );
 };
 

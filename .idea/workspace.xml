@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34f337a-bbfc-4a6e-9ca2-8e8711c9d30b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/friends/src/App/common/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friends/src/App/layout/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friends/src/App/styles/Container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/App/styles/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/App/styles/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/App/styles/Global.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/App/styles/Reset.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/App/styles/Styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/friends/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/friends/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/friends/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/friends/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/src/App/layout/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/friends/src/App/layout/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/src/App/styles/Container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/friends/src/App/styles/Container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,31 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/friends/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/friends/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/friends/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/friends/src/App/layout/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="486">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -86,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="558">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -96,13 +67,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx">
+        <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Button.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Reset.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Styles.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Global.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Card.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -110,16 +117,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Container.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="216">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811" />
           </provider>
         </entry>
       </file>
@@ -128,8 +128,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="React JSX" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,10 +143,15 @@
         <option value="$PROJECT_DIR$/friends/public/index.html" />
         <option value="$PROJECT_DIR$/friends/src/index.js" />
         <option value="$PROJECT_DIR$/friends/src/App/common/api.js" />
-        <option value="$PROJECT_DIR$/friends/src/App/styles/Container.jsx" />
-        <option value="$PROJECT_DIR$/friends/src/App/layout/App.jsx" />
-        <option value="$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx" />
         <option value="$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/App/styles/Container.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/App/styles/reset.js" />
+        <option value="$PROJECT_DIR$/friends/src/App/layout/App.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/App/styles/Global.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/App/styles/Card.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/App/styles/Styles.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx" />
+        <option value="$PROJECT_DIR$/friends/src/App/styles/Button.jsx" />
       </list>
     </option>
   </component>
@@ -209,6 +214,14 @@
               <item name="HTTP-AJAX" type="462c0819:PsiDirectoryNode" />
               <item name="friends" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTTP-AJAX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTTP-AJAX" type="462c0819:PsiDirectoryNode" />
+              <item name="friends" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,7 +274,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560286393684</updated>
-      <workItem from="1560286396515" duration="4760000" />
+      <workItem from="1560286396515" duration="9595000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1560287017984</created>
@@ -270,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560287017984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Data is being imported and displayed to screen">
+      <created>1560291295138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560291295138</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4760000" />
+    <option name="totallyTimeSpent" value="9595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -287,7 +307,7 @@
       <window_info anchor="bottom" id="Quokka" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3293556" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33492443" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -300,26 +320,41 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18676123" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Quokka" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.33492443" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Setup" />
+    <MESSAGE value="Data is being imported and displayed to screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data is being imported and displayed to screen" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/friends/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friends/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -333,6 +368,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Container.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/friends/src/App/common/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -340,45 +397,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/friends/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811" />
+        <state relative-caret-position="378">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Container.jsx">
+    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Reset.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="352">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/friends/src/App/layout/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="486">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Global.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Styles.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/friends/src/Features/Friends/Friend.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="558">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/friends/src/Features/Friends/Friends.jsx">
+    <entry file="file://$PROJECT_DIR$/friends/src/App/styles/Button.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>

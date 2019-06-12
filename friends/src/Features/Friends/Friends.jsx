@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Friend from './Friend';
+import Container from '../../App/styles/Container';
 
 const Friends = ( {friends} ) => {
   return (
-    <div>
+    <Container Card>
       {friends.map( friend => <Friend friend={friend} key={friend.id} /> )}
-    </div>
+    </Container>
   );
 };
 
