@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 import Container from '../../App/styles/Container';
 import Button from '../../App/styles/Button';
 
@@ -12,13 +13,17 @@ const Navigation = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`
-const Navbar = () => {
+`;
+const Navbar     = () => {
   return (
     <Navigation>
       <Container Navigation>
-        <h1>Don's Friends</h1>
-        <Button clickMe>New Friend</Button>
+        <NavLink to="/">
+          <h1>Don's Friends</h1>
+        </NavLink>
+        <NavLink to="/addfriend">
+          <Button clickMe>New Friend</Button>
+        </NavLink>
       </Container>
     </Navigation>
   );

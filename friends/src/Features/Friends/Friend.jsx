@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import Card from '../../App/styles/Card';
 import Button from '../../App/styles/Button';
 import styled from 'styled-components';
@@ -19,7 +20,9 @@ const Friend = ( {friend, deleteFriend} ) => {
       <p>Email:</p>
       <p>{email}</p>
       <ButtonContainer>
-        <Button success>Edit</Button>
+        <Link to={`/editfriend/${id}`}>
+          <Button success>Edit</Button>
+        </Link>
         <Button danger onClick={() => deleteFriend( id )}>Delete</Button>
       </ButtonContainer>
     </Card>
