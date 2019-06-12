@@ -17,7 +17,32 @@ const Card = styled.div`
   padding-bottom: 1rem;
   
   }  
- 
+  
+  ${props => props.displayForm && css`
+    width: 100%;
+    padding: 20px;
+    
+    h2 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    button {
+      margin-top: 10px;
+    }
+    
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    label {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+    
+`}
 
 `;
 

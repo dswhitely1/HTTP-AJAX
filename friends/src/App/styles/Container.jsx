@@ -10,6 +10,14 @@ const Container = styled.div`
     justify-content: space-around;
     flex-flow: row wrap;
 `}
+  ${props => props.Navigation && css`
+    display: flex;
+    align-items: center;
+    
+    h1 {
+      width: 650px;
+    }
+`}
 `;
 
 export default Container;

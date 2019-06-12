@@ -10,8 +10,8 @@ const ButtonContainer = styled.div`
   margin-top: 1rem;
 `;
 
-const Friend = ({friend}) => {
-  const {name,age,email} = friend;
+const Friend = ( {friend, deleteFriend} ) => {
+  const {name, age, email, id} = friend;
   return (
     <Card>
       <h4>{name}</h4>
@@ -19,8 +19,8 @@ const Friend = ({friend}) => {
       <p>Email:</p>
       <p>{email}</p>
       <ButtonContainer>
-      <Button success>Edit</Button>
-      <Button danger>Delete</Button>
+        <Button success>Edit</Button>
+        <Button danger onClick={() => deleteFriend( id )}>Delete</Button>
       </ButtonContainer>
     </Card>
   );
@@ -31,7 +31,7 @@ Friend.propTypes = {
     name : PropTypes.string,
     age  : PropTypes.number,
     email: PropTypes.string
-  })
+  } )
 };
 
 export default Friend;
