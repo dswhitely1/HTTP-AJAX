@@ -15,7 +15,9 @@ const Card = styled.div`
   h4 {
   border-bottom: 1px solid lightgray;
   padding-bottom: 1rem;
-  
+  :hover {
+    cursor: pointer;
+  }
   }  
   
   ${props => props.displayForm && css`
@@ -43,7 +45,22 @@ const Card = styled.div`
     }
     
 `}
-
+  ${props => props.catFact && css`
+   width: 476px;
+   padding: 20px;
+   height: 175px;
+   
+   h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   
+   p {
+    text-align: left;
+    font-size: 1.8rem;
+   }
+`}
 `;
 
 export default Card;

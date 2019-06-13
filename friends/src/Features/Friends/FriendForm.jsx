@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 import Button from '../../App/styles/Button';
 import Card from '../../App/styles/Card';
-import styled from 'styled-components';
 
 const Input = styled.input`
   border: 1px solid #fbf7f5;
@@ -18,10 +20,10 @@ class FriendForm extends Component {
   };
 
   componentDidMount() {
-    if (this.props.match.params.id) {
-      const updatedState = this.props.friends.friends.filter( friend => {
-        console.log( friend );
-        return friend.id.toString() === this.props.match.params.id;
+    const {match, friends} = this.props;
+    if (match.params.id) {
+      const updatedState = friends.filter( friend => {
+        return friend.id.toString() === match.params.id;
       } )[0];
       this.setState( updatedState );
     } else {
@@ -34,17 +36,17 @@ class FriendForm extends Component {
   }
 
   onHandleChange = e => {
-    this.setState( {[e.target.name]: e.target.value} );
+    const {name, value} = e.target;
+    this.setState( {[name]: value} );
   };
 
   onHandleSubmit = e => {
+    const {updateFriend, newFriend} = this.props;
+    const {id}                      = this.state;
     e.preventDefault();
-    if (this.state.id) {
-      this.props.updateFriend( this.state.id, this.state );
-    } else {
-      this.props.newFriend( this.state );
-    }
+    id ? updateFriend( id, this.state ) : newFriend( this.state );
     this.setState( {
+      id   : '',
       name : '',
       age  : 0,
       email: ''
@@ -52,27 +54,38 @@ class FriendForm extends Component {
   };
 
   render() {
+    const {name, age, email, id} = this.state;
     return (
       <Card displayForm>
         <form onSubmit={this.onHandleSubmit}>
           <h2>Add / Modify a Friends Details</h2>
           <label>{`Friend's Name`}</label>
           <Input type='text' placeholder={`Friend's Name`}
-                 value={this.state.name}
+                 value={name}
                  onChange={this.onHandleChange} name='name' />
           <label>{`Friend's Age`}</label>
-          <Input type='number' value={this.state.age}
+          <Input type='number' value={age}
                  onChange={this.onHandleChange} name='age' />
           <label>{`Friend's Email`}</label>
           <Input type='email' placeholder={`Friend's Email`}
-                 value={this.state.email}
+                 value={email}
                  onChange={this.onHandleChange} name='email' />
 
-          <Button clickMe>{this.state.id ? 'Update' : 'Submit'}</Button>
+          <Button clickMe>{id ? 'Update' : 'Submit'}</Button>
         </form>
       </Card>
     );
   }
 }
 
+FriendForm.propTypes = {
+  props: PropTypes.shape( {
+    friends: PropTypes.shape( {
+      id   : PropTypes.number,
+      name : PropTypes.string,
+      age  : PropTypes.number,
+      email: PropTypes.string
+    } )
+  } )
+};
 export default FriendForm;

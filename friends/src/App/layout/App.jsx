@@ -10,6 +10,9 @@ import GlobalStyle from '../styles/Global';
 import Navbar from '../../Features/Navbar/Navbar';
 import FriendContainer from '../../Features/Friends/FriendContainer';
 import FriendForm from '../../Features/Friends/FriendForm';
+import FriendDetail from '../../Features/Friends/FriendDetail';
+import quotes from '../common/api/quotes';
+import key from '../common/secret/key';
 
 class App extends Component {
   state = {};
@@ -20,7 +23,13 @@ class App extends Component {
          this.setState( {friends: res.data} );
        } )
        .catch( err => console.log( err ) );
-
+    quotes( {
+      url    : '/',
+      method : 'GET',
+      headers: {'X-RapidAPI-Key': key}
+    } )
+    .then( res => this.setState( {catDetails: res.data} ) )
+    .catch( err => console.log( err ) );
   }
 
   handleNewFriend = newFriend => {
@@ -42,9 +51,11 @@ class App extends Component {
     API.delete( `/friends/${id}` )
        .then( res => this.setState( {friends: res.data} ) )
        .catch( err => console.log( err ) );
+    this.props.history.push( '/' );
   };
 
   render() {
+    const {friends, catDetails} = this.state;
     return (
       <>
         <Navbar />
@@ -52,7 +63,7 @@ class App extends Component {
           <GlobalStyle />
           <Switch>
             <Route exact path="/"
-                   render={() => <FriendContainer friends={this.state.friends}
+                   render={() => <FriendContainer friends={friends}
                                                   newFriend={this.handleNewFriend}
                                                   updateFriend={this.handleUpdateFriend}
                                                   deleteFriend={this.handleDeleteFriend} />} />
@@ -63,7 +74,12 @@ class App extends Component {
                    render={props => <FriendForm {...props}
                                                 newFriend={this.handleNewFriend}
                                                 updateFriend={this.handleUpdateFriend}
-                                                friends={this.state} />} />
+                                                friends={friends} />} />
+            <Route path="/viewfriend/:id"
+                   render={props => <FriendDetail {...props}
+                                                  friends={friends}
+                                                  catFacts={catDetails}
+                                                  deleteFriend={this.handleDeleteFriend} />} />
           </Switch>
         </Container>
       </>

@@ -15,7 +15,9 @@ const Friend = ( {friend, deleteFriend} ) => {
   const {name, age, email, id} = friend;
   return (
     <Card>
+      <Link to={`/viewfriend/${id}`}>
       <h4>{name}</h4>
+      </Link>
       <p>{`Age: ${age}`}</p>
       <p>Email:</p>
       <p>{email}</p>
@@ -31,6 +33,7 @@ const Friend = ( {friend, deleteFriend} ) => {
 
 Friend.propTypes = {
   props: PropTypes.shape( {
+    id   : PropTypes.number,
     name : PropTypes.string,
     age  : PropTypes.number,
     email: PropTypes.string

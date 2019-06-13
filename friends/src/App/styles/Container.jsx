@@ -18,6 +18,12 @@ const Container = styled.div`
       width: 650px;
     }
 `}
+  ${props => props.FriendDetail && css`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+`}
 `;
 
 export default Container;

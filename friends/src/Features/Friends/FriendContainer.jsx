@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Friends from './Friends';
 
 const FriendContainer = props => {
@@ -8,6 +9,12 @@ const FriendContainer = props => {
       {friends && <Friends {...props} />}
     </>
   );
+};
+
+FriendContainer.propTypes = {
+  props: PropTypes.shape( {
+    friends: PropTypes.object
+  } )
 };
 
 export default FriendContainer;
